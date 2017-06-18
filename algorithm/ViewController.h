@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *placeholderView;
 
+@property (strong, nonatomic) IBOutlet UIImageView *imgView;
+
+@property (weak, nonatomic) IBOutlet UITextField *changeIndex;
+- (IBAction)start:(UIButton *)sender;
 
 @end
 
